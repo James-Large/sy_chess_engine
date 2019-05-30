@@ -3,7 +3,7 @@ A chess engine, largely in C with some C++ randomly dropped in, made many years 
 
 ### Initial state
 
-One of my early projects done while teaching myself C++ before uni, at least 5 years ago. As can be seen, not many project structure principles were followed, and I wrote this far before I was using any kind of version control or had anyone actually looking at my code. This project is infact intended to be updated over time. One day, this *will* be 'finished'. I'll leave a stable version of the initial push as a separate branch, initstate. 
+One of my early projects done while teaching myself C++ before uni, at least 5 years ago. As can be seen, not many project structure principles were followed, and I wrote this far before I was using any kind of version control or had anyone actually looking at my code. This project is infact intended to be updated over time. One day, this *will* be 'finished'. I'll leave a stable version of the initial push as a separate branch, [initstate](https://github.com/James-Large/sy_chess_engine/tree/initstate). 
 
 It was coded in the Codeblocks IDE, that came with the C++ Primer that I initially learned from.
 
