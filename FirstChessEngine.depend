@@ -1,0 +1,82 @@
+# depslib dependency file v1.0
+1420299355 source:c:\users\jamesl\documents\programming\engines\firstchessengine\main.cpp
+	<iostream>
+	<cstdio>
+	"board.h"
+	"data.h"
+	"bitBoards.h"
+
+1420034173 c:\users\jamesl\documents\programming\engines\firstchessengine\types.h
+	"enums.h"
+
+1420223295 c:\users\jamesl\documents\programming\engines\firstchessengine\enums.h
+
+1420308499 c:\users\jamesl\documents\programming\engines\firstchessengine\board.h
+	"enums.h"
+	"move.h"
+	"bitBoards.h"
+	"Hasher.h"
+	<stack>
+	<string>
+	<vector>
+
+1420308227 c:\users\jamesl\documents\programming\engines\firstchessengine\move.h
+	"enums.h"
+	"Hasher.h"
+
+1420312622 source:c:\users\jamesl\documents\programming\engines\firstchessengine\init.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	<stack>
+	<iostream>
+	<vector>
+	"Hasher.h"
+
+1420125832 c:\users\jamesl\documents\programming\engines\firstchessengine\macros.h
+
+1420240780 source:c:\users\jamesl\documents\programming\engines\firstchessengine\data.cpp
+	"data.h"
+
+1420312611 source:c:\users\jamesl\documents\programming\engines\firstchessengine\board.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	"data.h"
+	"bitBoards.h"
+	<iostream>
+	<iomanip>
+	"Hasher.h"
+	<cassert>
+
+1420240786 c:\users\jamesl\documents\programming\engines\firstchessengine\data.h
+	<string>
+
+1420216750 c:\users\jamesl\documents\programming\engines\firstchessengine\bitboard.h
+	<iostream>
+	<iomanip>
+	<string>
+
+1420224636 c:\users\jamesl\documents\programming\engines\firstchessengine\bitboards.h
+	<stdint.h>
+
+1420224679 source:c:\users\jamesl\documents\programming\engines\firstchessengine\bitboards.cpp
+	<iostream>
+	<iomanip>
+	"bitBoards.h"
+	"enums.h"
+	"macros.h"
+
+1420312604 c:\users\jamesl\documents\programming\engines\firstchessengine\hasher.h
+	"board.h"
+	"enums.h"
+	<unordered_map>
+
+1420308667 source:c:\users\jamesl\documents\programming\engines\firstchessengine\hasher.cpp
+	"board.h"
+	"enums.h"
+	"Hasher.h"
+	<unordered_map>
+	<stdlib.h>
+	<time.h>
+

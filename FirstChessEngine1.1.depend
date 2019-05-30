@@ -1,0 +1,389 @@
+# depslib dependency file v1.0
+1421682906 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\bitboards.cpp
+	<iostream>
+	<iomanip>
+	"bitBoards.h"
+	"enums.h"
+	"macros.h"
+	<cassert>
+
+1421952996 c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\bitboards.h
+	"data.h"
+	<stdint.h>
+
+1482592822 c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\enums.h
+
+1482603311 c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\macros.h
+
+1482767868 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\board.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	"data.h"
+	"bitBoards.h"
+	<iostream>
+	<iomanip>
+	"posHash.h"
+	<cassert>
+
+1482767740 c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\board.h
+	"data.h"
+	"enums.h"
+	"move.h"
+	"bitBoards.h"
+	"posHash.h"
+	"posHistory.h"
+	<stack>
+	<string>
+	<vector>
+
+1482767760 c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\move.h
+	"data.h"
+	"enums.h"
+	"posHash.h"
+	"bitBoards.h"
+	"macros.h"
+	<iostream>
+	<bitset>
+
+1420383502 c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\hasher.h
+	"board.h"
+	"enums.h"
+	<unordered_map>
+
+1482763877 c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\data.h
+	<string>
+	<stdint.h>
+	<unordered_map>
+
+1482769925 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\data.cpp
+	"data.h"
+	"enums.h"
+
+1420308667 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\hasher.cpp
+	"board.h"
+	"enums.h"
+	"Hasher.h"
+	<unordered_map>
+	<stdlib.h>
+	<time.h>
+
+1482762235 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\init.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	<stack>
+	<iostream>
+	<vector>
+	"posHash.h"
+	"data.h"
+	"bitBoards.h"
+
+1482765403 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\main.cpp
+	<iostream>
+	<cstdio>
+	"board.h"
+	"data.h"
+	"bitBoards.h"
+	<cassert>
+	<stdlib.h>
+
+1482591506 c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\poshash.h
+	"data.h"
+	"enums.h"
+
+1482591502 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\poshash.cpp
+	"enums.h"
+	"posHash.h"
+	<unordered_map>
+	<stdlib.h>
+	<time.h>
+
+1482769959 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\movegen.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	<vector>
+	"data.h"
+	"bitBoards.h"
+	<cassert>
+	<iostream>
+
+1482767734 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\makemove.cpp
+	"board.h"
+	"data.h"
+	"bitBoards.h"
+	"posHash.h"
+	"macros.h"
+	"move.h"
+	"posHistory.h"
+	<cassert>
+	<stdlib.h>
+	<iostream>
+
+1482601419 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\poshistory.cpp
+	"posHistory.h"
+
+1482603172 c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\poshistory.h
+	"move.h"
+	"board.h"
+	"posHash.h"
+
+1482760144 source:c:\users\jamesl\documents\programming\engines\fce\firstchessengine1.1\move.cpp
+	"move.h"
+
+1483017405 source:c:\users\jamesl\documents\programming\engines\fce\codebase\main.cpp
+	<iostream>
+	<cstdio>
+	"board.h"
+	"data.h"
+	"bitBoards.h"
+	<cassert>
+	<stdlib.h>
+	"timer.h"
+	<iomanip>
+
+1483015345 c:\users\jamesl\documents\programming\engines\fce\codebase\board.h
+	"data.h"
+	"enums.h"
+	"move.h"
+	"bitBoards.h"
+	"posHash.h"
+	"posHistory.h"
+	<stack>
+	<string>
+	<vector>
+
+1482763877 c:\users\jamesl\documents\programming\engines\fce\codebase\data.h
+	<string>
+	<stdint.h>
+	<unordered_map>
+
+1482592822 c:\users\jamesl\documents\programming\engines\fce\codebase\enums.h
+
+1482767760 c:\users\jamesl\documents\programming\engines\fce\codebase\move.h
+	"data.h"
+	"enums.h"
+	"posHash.h"
+	"bitBoards.h"
+	"macros.h"
+	<iostream>
+	<bitset>
+
+1482591506 c:\users\jamesl\documents\programming\engines\fce\codebase\poshash.h
+	"data.h"
+	"enums.h"
+
+1421952996 c:\users\jamesl\documents\programming\engines\fce\codebase\bitboards.h
+	"data.h"
+	<stdint.h>
+
+1482791824 c:\users\jamesl\documents\programming\engines\fce\codebase\macros.h
+
+1482603172 c:\users\jamesl\documents\programming\engines\fce\codebase\poshistory.h
+	"move.h"
+	"board.h"
+	"posHash.h"
+
+1421682906 source:c:\users\jamesl\documents\programming\engines\fce\codebase\bitboards.cpp
+	<iostream>
+	<iomanip>
+	"bitBoards.h"
+	"enums.h"
+	"macros.h"
+	<cassert>
+
+1482769925 source:c:\users\jamesl\documents\programming\engines\fce\codebase\data.cpp
+	"data.h"
+	"enums.h"
+
+1482591502 source:c:\users\jamesl\documents\programming\engines\fce\codebase\poshash.cpp
+	"enums.h"
+	"posHash.h"
+	<unordered_map>
+	<stdlib.h>
+	<time.h>
+
+1483015364 source:c:\users\jamesl\documents\programming\engines\fce\codebase\board.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	"data.h"
+	"bitBoards.h"
+	<iostream>
+	<iomanip>
+	"posHash.h"
+	<stdlib.h>
+	<cassert>
+
+1483017162 source:c:\users\jamesl\documents\programming\engines\fce\codebase\init.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	<stack>
+	<iostream>
+	<vector>
+	"posHash.h"
+	"data.h"
+	"bitBoards.h"
+
+1482842544 source:c:\users\jamesl\documents\programming\engines\fce\codebase\makemove.cpp
+	"board.h"
+	"data.h"
+	"bitBoards.h"
+	"posHash.h"
+	"macros.h"
+	"move.h"
+	"posHistory.h"
+	<cassert>
+	<stdlib.h>
+	<iostream>
+
+1483017275 source:c:\users\jamesl\documents\programming\engines\fce\codebase\movegen.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	<vector>
+	"data.h"
+	"bitBoards.h"
+	<cassert>
+	<iostream>
+
+1482760144 source:c:\users\jamesl\documents\programming\engines\fce\codebase\move.cpp
+	"move.h"
+
+1483017630 c:\users\jamesl\documents\programming\engines\fce\codebase\timer.h
+	<ctime>
+
+1482859817 source:c:\users\jamesl\documents\programming\engines\fce\codebase\search.cpp
+	"board.h"
+
+1483039322 source:c:\users\james\documents\programming\engines\codebase\bitboards.cpp
+	<iostream>
+	<iomanip>
+	"bitBoards.h"
+	"enums.h"
+	"macros.h"
+	<cassert>
+
+1483039319 c:\users\james\documents\programming\engines\codebase\bitboards.h
+	"data.h"
+	<stdint.h>
+
+1483030376 c:\users\james\documents\programming\engines\codebase\data.h
+	<string>
+	<stdint.h>
+	<unordered_map>
+
+1483033998 c:\users\james\documents\programming\engines\codebase\enums.h
+
+1483030376 c:\users\james\documents\programming\engines\codebase\macros.h
+
+1483905491 source:c:\users\james\documents\programming\engines\codebase\board.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	"data.h"
+	"bitBoards.h"
+	<iostream>
+	<iomanip>
+	"posHash.h"
+	<stdlib.h>
+	<cassert>
+
+1483030376 c:\users\james\documents\programming\engines\codebase\board.h
+	"data.h"
+	"enums.h"
+	"move.h"
+	"bitBoards.h"
+	"posHash.h"
+	"posHistory.h"
+	<stack>
+	<string>
+	<vector>
+
+1483030376 c:\users\james\documents\programming\engines\codebase\move.h
+	"data.h"
+	"enums.h"
+	"posHash.h"
+	"bitBoards.h"
+	"macros.h"
+	<iostream>
+	<bitset>
+
+1483030377 c:\users\james\documents\programming\engines\codebase\poshash.h
+	"data.h"
+	"enums.h"
+
+1483030377 c:\users\james\documents\programming\engines\codebase\poshistory.h
+	"move.h"
+	"board.h"
+	"posHash.h"
+
+1483030376 source:c:\users\james\documents\programming\engines\codebase\data.cpp
+	"data.h"
+	"enums.h"
+
+1483042376 source:c:\users\james\documents\programming\engines\codebase\init.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	<stack>
+	<iostream>
+	<vector>
+	"posHash.h"
+	"data.h"
+	"bitBoards.h"
+
+1484498792 source:c:\users\james\documents\programming\engines\codebase\main.cpp
+	<iostream>
+	<cstdio>
+	"board.h"
+	"data.h"
+	"bitBoards.h"
+	<iomanip>
+	<fstream>
+	<sstream>
+	<string>
+	<cassert>
+	<stdlib.h>
+	"timer.h"
+
+1483030377 c:\users\james\documents\programming\engines\codebase\timer.h
+	<ctime>
+
+1483035592 source:c:\users\james\documents\programming\engines\codebase\makemove.cpp
+	"board.h"
+	"data.h"
+	"bitBoards.h"
+	"posHash.h"
+	"macros.h"
+	"move.h"
+	"posHistory.h"
+	<cassert>
+	<stdlib.h>
+	<iostream>
+
+1483030376 source:c:\users\james\documents\programming\engines\codebase\move.cpp
+	"move.h"
+
+1483042400 source:c:\users\james\documents\programming\engines\codebase\movegen.cpp
+	"board.h"
+	"enums.h"
+	"macros.h"
+	<vector>
+	"data.h"
+	"bitBoards.h"
+	<cassert>
+	<iostream>
+
+1483030377 source:c:\users\james\documents\programming\engines\codebase\poshash.cpp
+	"enums.h"
+	"posHash.h"
+	<unordered_map>
+	<stdlib.h>
+	<time.h>
+
+1483030377 source:c:\users\james\documents\programming\engines\codebase\search.cpp
+	"board.h"
+

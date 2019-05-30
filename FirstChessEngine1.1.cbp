@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FirstChessEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FirstChessEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FirstChessEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="bitBoards.cpp" />
+		<Unit filename="bitBoards.h" />
+		<Unit filename="board.cpp" />
+		<Unit filename="board.h" />
+		<Unit filename="data.cpp" />
+		<Unit filename="data.h" />
+		<Unit filename="enums.h" />
+		<Unit filename="init.cpp" />
+		<Unit filename="macros.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="makeMove.cpp" />
+		<Unit filename="move.cpp" />
+		<Unit filename="move.h" />
+		<Unit filename="moveGen.cpp" />
+		<Unit filename="posHash.cpp" />
+		<Unit filename="posHash.h" />
+		<Unit filename="posHistory.h" />
+		<Unit filename="search.cpp" />
+		<Unit filename="timer.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
