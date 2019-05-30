@@ -1,9 +1,17 @@
 # sy_chess_engine
 A chess engine, largely in C with some C++ randomly dropped in, made many years ago while learning C/C++. The project that's always been in progress, in theory. 
 
+### Initial state
+
+One of my early projects done while teaching myself C++ before uni, at least 5 years ago. As can be seen, not many project structure principles were followed, and I wrote this far before I was using any kind of version control or had anyone actually looking at my code. This project is infact intended to be updated over time. One day, this *will* be 'finished'. I'll leave a stable version of the initial push as a separate branch, initstate. 
+
+It was coded in the Codeblocks IDE, that came with the C++ Primer that I initially learned from.
+
 I was following [this](https://www.youtube.com/playlist?list=PLZ1QII7yudbc-Ky058TEaOstZHVbT-2hg) tutorial very heavily, this was a fantastic resource, highly recommend it. Props to you 'Bluefever Software' if you ever happen to come across this for some reason. Looks like you're even still uploading code tutorials, good stuff
 
-This project is probably the reason I feel at all comfortable with low level code and have a feeling for what a language is 'actually doing'. That plus the bit packing and random bit magic snippets to build and manipulate bitboards are pretty entertaining. This project is infact intended to be updated over time. One day, this *will* be 'finished'
+This project is probably the reason I feel at all comfortable with low level code and have a feeling for what a language is 'actually doing'. That plus the bit packing and random bit magic snippets to build and manipulate bitboards are pretty entertaining. 
+
+### Overview
 
 I always thought of this project as being in three high level stages
 
@@ -17,7 +25,7 @@ In terms of the state of the project, at the time of repo creation/initial pushi
 
 ### Plans for this 
 
-* Refactor the fuck out of it, and probably get it into a passable C++ state. I'll leave a stable version of the initial push as a separate branch, initstate. 
+* Refactor the fuck out of it, and probably get it into a passable C++ state.
 * Plug it into some kind of basic chess gui for better play testing, as opposed to the ASCII art ches board currently drawn...
 * Then I'll look into bolting on some kind of RL framework. 
 
